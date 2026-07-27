@@ -1,0 +1,26 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -p no:cacheprovider"
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+src = ["src", "tests"]
+exclude = [
+    ".venv",
+    ".pytest-tmp",
+    "data/metadata/pytest_tmp_probe",
+    "pytest-cache-files-*",
+    "pytest-tmp",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["tests"]
+mypy_path = "src"
+strict = true
+warn_unused_configs = true

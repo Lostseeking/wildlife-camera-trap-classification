@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+pytest-tmp/
+pytest-cache-files-*/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment
+.env
+.env.*
+
+# Data artifacts
+data/raw/
+!data/raw/
+data/raw/*
+*.part-*
+data/processed/*
+data/metadata/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/metadata/.gitkeep
+data/metadata/*download_report*.csv
+data/metadata/*download_failures*.csv
+!data/metadata/caltech_mvp_subset.csv
+!data/metadata/caltech_mvp_subset_summary.json
+
+# Model artifacts
+*.pt
+*.pth
+checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+.pytest-tmp/
+
+# Generated cache and temporary smoke-test outputs
+artifacts/matplotlib/
+artifacts/training/resnet18_smoke/
+
+# Keep reproducible train/validation/test splits
+!data/processed/splits/
+!data/processed/splits/*.csv
+
+# Dataset preview images
+artifacts/data_checks/*_batch.png

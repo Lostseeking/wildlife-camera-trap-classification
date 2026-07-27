@@ -1,0 +1,10 @@
+torch>=2.3
+torchvision>=0.18
+pytest>=8.0
+ruff>=0.5
+mypy>=1.10
+ijson>=3.2
+pillow>=10.0
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8

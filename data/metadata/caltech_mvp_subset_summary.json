@@ -1,0 +1,290 @@
+{
+  "category_distribution_available_after_exclusions": {
+    "badger": {
+      "image_count": 40,
+      "unique_locations": 9,
+      "unique_sequences": 20
+    },
+    "bat": {
+      "image_count": 3,
+      "unique_locations": 1,
+      "unique_sequences": 1
+    },
+    "bird": {
+      "image_count": 9325,
+      "unique_locations": 118,
+      "unique_sequences": 3828
+    },
+    "bobcat": {
+      "image_count": 7829,
+      "unique_locations": 81,
+      "unique_sequences": 3721
+    },
+    "car": {
+      "image_count": 4717,
+      "unique_locations": 11,
+      "unique_sequences": 4711
+    },
+    "cat": {
+      "image_count": 5095,
+      "unique_locations": 22,
+      "unique_sequences": 1710
+    },
+    "cow": {
+      "image_count": 3626,
+      "unique_locations": 3,
+      "unique_sequences": 3598
+    },
+    "coyote": {
+      "image_count": 16121,
+      "unique_locations": 95,
+      "unique_sequences": 11043
+    },
+    "deer": {
+      "image_count": 12186,
+      "unique_locations": 62,
+      "unique_sequences": 7031
+    },
+    "dog": {
+      "image_count": 3898,
+      "unique_locations": 38,
+      "unique_sequences": 1847
+    },
+    "empty": {
+      "image_count": 125745,
+      "unique_locations": 126,
+      "unique_sequences": 121151
+    },
+    "fox": {
+      "image_count": 2574,
+      "unique_locations": 65,
+      "unique_sequences": 940
+    },
+    "insect": {
+      "image_count": 6,
+      "unique_locations": 2,
+      "unique_sequences": 2
+    },
+    "lizard": {
+      "image_count": 309,
+      "unique_locations": 21,
+      "unique_sequences": 90
+    },
+    "mountain_lion": {
+      "image_count": 145,
+      "unique_locations": 10,
+      "unique_sequences": 46
+    },
+    "opossum": {
+      "image_count": 16575,
+      "unique_locations": 35,
+      "unique_sequences": 5577
+    },
+    "pig": {
+      "image_count": 2,
+      "unique_locations": 1,
+      "unique_sequences": 2
+    },
+    "rabbit": {
+      "image_count": 12184,
+      "unique_locations": 68,
+      "unique_sequences": 6261
+    },
+    "raccoon": {
+      "image_count": 10584,
+      "unique_locations": 49,
+      "unique_sequences": 4603
+    },
+    "rodent": {
+      "image_count": 4265,
+      "unique_locations": 66,
+      "unique_sequences": 1667
+    },
+    "skunk": {
+      "image_count": 1886,
+      "unique_locations": 77,
+      "unique_sequences": 1006
+    },
+    "squirrel": {
+      "image_count": 4416,
+      "unique_locations": 46,
+      "unique_sequences": 1745
+    }
+  },
+  "category_distribution_original": {
+    "badger": {
+      "image_count": 50,
+      "unique_locations": 11,
+      "unique_sequences": 23
+    },
+    "bat": {
+      "image_count": 3,
+      "unique_locations": 1,
+      "unique_sequences": 1
+    },
+    "bird": {
+      "image_count": 10003,
+      "unique_locations": 118,
+      "unique_sequences": 3871
+    },
+    "bobcat": {
+      "image_count": 8098,
+      "unique_locations": 81,
+      "unique_sequences": 3765
+    },
+    "car": {
+      "image_count": 4717,
+      "unique_locations": 11,
+      "unique_sequences": 4711
+    },
+    "cat": {
+      "image_count": 5297,
+      "unique_locations": 22,
+      "unique_sequences": 1732
+    },
+    "cow": {
+      "image_count": 3626,
+      "unique_locations": 3,
+      "unique_sequences": 3598
+    },
+    "coyote": {
+      "image_count": 16601,
+      "unique_locations": 95,
+      "unique_sequences": 11121
+    },
+    "deer": {
+      "image_count": 12196,
+      "unique_locations": 62,
+      "unique_sequences": 7032
+    },
+    "dog": {
+      "image_count": 4512,
+      "unique_locations": 38,
+      "unique_sequences": 1962
+    },
+    "empty": {
+      "image_count": 125745,
+      "unique_locations": 126,
+      "unique_sequences": 121151
+    },
+    "fox": {
+      "image_count": 2574,
+      "unique_locations": 65,
+      "unique_sequences": 940
+    },
+    "insect": {
+      "image_count": 6,
+      "unique_locations": 2,
+      "unique_sequences": 2
+    },
+    "lizard": {
+      "image_count": 309,
+      "unique_locations": 21,
+      "unique_sequences": 90
+    },
+    "mountain_lion": {
+      "image_count": 145,
+      "unique_locations": 10,
+      "unique_sequences": 46
+    },
+    "opossum": {
+      "image_count": 16698,
+      "unique_locations": 35,
+      "unique_sequences": 5586
+    },
+    "pig": {
+      "image_count": 2,
+      "unique_locations": 1,
+      "unique_sequences": 2
+    },
+    "rabbit": {
+      "image_count": 12519,
+      "unique_locations": 68,
+      "unique_sequences": 6313
+    },
+    "raccoon": {
+      "image_count": 11390,
+      "unique_locations": 49,
+      "unique_sequences": 4684
+    },
+    "rodent": {
+      "image_count": 4279,
+      "unique_locations": 66,
+      "unique_sequences": 1667
+    },
+    "skunk": {
+      "image_count": 1898,
+      "unique_locations": 77,
+      "unique_sequences": 1008
+    },
+    "squirrel": {
+      "image_count": 4450,
+      "unique_locations": 46,
+      "unique_sequences": 1750
+    }
+  },
+  "excluded_multi_annotation_image_count": 1569,
+  "max_images_per_category": 1000,
+  "max_images_per_seq": 1,
+  "metadata_path": "data\\metadata\\caltech_metadata.csv",
+  "missing_requested_categories": [],
+  "multi_annotation_path": "data\\metadata\\caltech_multi_annotation_images.csv",
+  "requested_categories": [
+    "empty",
+    "deer",
+    "coyote",
+    "bobcat",
+    "bird",
+    "opossum"
+  ],
+  "seed": 42,
+  "selected_categories": [
+    "bird",
+    "bobcat",
+    "coyote",
+    "deer",
+    "empty",
+    "opossum"
+  ],
+  "selected_category_summary": {
+    "bird": {
+      "original_available_image_count": 9325,
+      "selected_image_count": 1000,
+      "unique_locations": 118,
+      "unique_sequences": 1000
+    },
+    "bobcat": {
+      "original_available_image_count": 7829,
+      "selected_image_count": 1000,
+      "unique_locations": 81,
+      "unique_sequences": 1000
+    },
+    "coyote": {
+      "original_available_image_count": 16121,
+      "selected_image_count": 1000,
+      "unique_locations": 95,
+      "unique_sequences": 1000
+    },
+    "deer": {
+      "original_available_image_count": 12186,
+      "selected_image_count": 1000,
+      "unique_locations": 62,
+      "unique_sequences": 1000
+    },
+    "empty": {
+      "original_available_image_count": 125745,
+      "selected_image_count": 1000,
+      "unique_locations": 126,
+      "unique_sequences": 1000
+    },
+    "opossum": {
+      "original_available_image_count": 16575,
+      "selected_image_count": 1000,
+      "unique_locations": 35,
+      "unique_sequences": 1000
+    }
+  },
+  "subset_output": "data\\metadata\\caltech_mvp_subset.csv",
+  "summary_output": "data\\metadata\\caltech_mvp_subset_summary.json",
+  "total_selected_images": 6000
+}

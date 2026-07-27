@@ -1,0 +1,112 @@
+{
+  "batch_size": 16,
+  "best_checkpoint_path": "artifacts\\checkpoints\\resnet18_head_retry1_best.pt",
+  "best_epoch": 5,
+  "best_validation_macro_f1": 0.5071973156612998,
+  "configuration": {
+    "batch_size": 16,
+    "checkpoint_dir": "artifacts\\checkpoints",
+    "epochs": 5,
+    "freeze_backbone": true,
+    "image_root": "data\\raw\\caltech_camera_traps\\images",
+    "image_size": 224,
+    "learning_rate": 0.001,
+    "log_interval": 25,
+    "max_train_batches": null,
+    "max_val_batches": null,
+    "num_workers": 0,
+    "output_dir": "artifacts\\training",
+    "pretrained": true,
+    "run_name": "resnet18_head_retry1",
+    "seed": 42,
+    "train_csv": "data\\processed\\splits\\train.csv",
+    "val_csv": "data\\processed\\splits\\val.csv",
+    "weight_decay": 0.0001
+  },
+  "configured_train_batch_count": 260,
+  "configured_validation_batch_count": 58,
+  "cuda_available": false,
+  "device": "cpu",
+  "end_timestamp": "2026-07-27T07:32:15.216867+00:00",
+  "epochs_completed": 5,
+  "final_epoch_metrics": {
+    "epoch": 5,
+    "epoch_duration_seconds": 405.0470000000023,
+    "per_class_validation_metrics": {
+      "bird": {
+        "f1": 0.5935483870967743,
+        "precision": 0.5822784810126582,
+        "recall": 0.6052631578947368,
+        "support": 152.0
+      },
+      "bobcat": {
+        "f1": 0.38953488372093026,
+        "precision": 0.366120218579235,
+        "recall": 0.4161490683229814,
+        "support": 161.0
+      },
+      "coyote": {
+        "f1": 0.2727272727272727,
+        "precision": 0.5625,
+        "recall": 0.18,
+        "support": 150.0
+      },
+      "deer": {
+        "f1": 0.690391459074733,
+        "precision": 0.7238805970149254,
+        "recall": 0.6598639455782312,
+        "support": 147.0
+      },
+      "empty": {
+        "f1": 0.41126760563380277,
+        "precision": 0.35784313725490197,
+        "recall": 0.48344370860927155,
+        "support": 151.0
+      },
+      "opossum": {
+        "f1": 0.6857142857142857,
+        "precision": 0.625,
+        "recall": 0.759493670886076,
+        "support": 158.0
+      }
+    },
+    "train_accuracy": 0.5837343599615015,
+    "train_batches_processed": 260,
+    "train_loss": 1.0898287376609412,
+    "validation_accuracy": 0.5179542981501633,
+    "validation_batches_processed": 58,
+    "validation_loss": 1.291580893010128,
+    "validation_macro_f1": 0.5071973156612998
+  },
+  "freeze_backbone": true,
+  "frozen_backbone_parameters_unchanged": true,
+  "gradient_check_passed": true,
+  "history_path": "artifacts\\training\\resnet18_head_retry1\\history.json",
+  "image_size": 224,
+  "last_checkpoint_path": "artifacts\\checkpoints\\resnet18_head_retry1_last.pt",
+  "limited_batch_metrics_warning": "",
+  "output_logits_shape": [
+    16,
+    6
+  ],
+  "pretrained": true,
+  "processed_train_batch_count": 260,
+  "processed_validation_batch_count": 58,
+  "run_name": "resnet18_head_retry1",
+  "smoke_test_mode": false,
+  "start_timestamp": "2026-07-27T06:54:37.495558+00:00",
+  "torch_version": "2.13.0+cpu",
+  "torchvision_version": "0.28.0+cpu",
+  "total_parameter_count": 11179590,
+  "train_dataset_size": 4156,
+  "trainable_parameter_count": 3078,
+  "trainable_parameter_names": [
+    "fc.weight",
+    "fc.bias"
+  ],
+  "trainable_parameter_percentage": 0.00027532315585813077,
+  "trainable_parameters_changed": true,
+  "training_curves_path": "artifacts\\training\\resnet18_head_retry1\\training_curves.png",
+  "training_validation_passed": true,
+  "validation_dataset_size": 919
+}

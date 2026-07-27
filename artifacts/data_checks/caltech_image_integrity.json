@@ -1,0 +1,20 @@
+{
+  "bad_images": [],
+  "source_base_url": "https://lilawildlife.blob.core.windows.net/lila-wildlife/caltech-unzipped/cct_images",
+  "split_csv_paths": {
+    "test": "data\\processed\\splits\\test.csv",
+    "train": "data\\processed\\splits\\train.csv",
+    "val": "data\\processed\\splits\\val.csv"
+  },
+  "summary": {
+    "check_only": true,
+    "corrupt_or_truncated_image_count": 0,
+    "missing_image_count": 0,
+    "repaired_image_count": 0,
+    "report_path": "artifacts\\data_checks\\caltech_image_integrity.json",
+    "still_invalid_image_count": 0,
+    "total_unique_images_checked": 6000,
+    "valid_image_count": 6000
+  },
+  "user_agent": "wildlife-caltech-subset-downloader/1.0"
+}
